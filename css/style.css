@@ -73,6 +73,8 @@ p{
 
 
 
+
+
 .bg-lines span{
     position: fixed;
     top: 0;
@@ -253,6 +255,22 @@ header nav .icons a:hover{
     z-index: -1;
 }
 
+.btn-sarp
+{
+    background: var(--main_color);
+    padding: 14px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--black_color);
+    transition: 0.3s;
+}
+
+.btn-sarp:hover{
+    background-color: gray;
+    color: var(--main_color);
+}
+
 @media screen and (min-width:0px) and (max-width:450px) {
 
     .hero{
@@ -335,7 +353,21 @@ header nav .icons a:hover{
     margin-right: 110px;
 }
 
+.btn-sarp
+{
+    background: var(--main_color);
+    padding: 14px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--black_color);
+    transition: 0.3s;
+}
 
+.btn-sarp:hover{
+    background-color: gray;
+    color: var(--main_color);
+}
 }
 
 
@@ -452,7 +484,26 @@ header nav .icons a:hover{
     color: var(--main_color);
 }
 
+.anathrr
+{
+    opacity: 0;
+}
 
+.btn-btnsa
+{
+    background: var(--main_color);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 550;
+    text-transform: capitalize;
+    color: var(--black_color);
+    transition: 0.3s;
+}
+
+.btn-btnsa:hover{
+    background-color: gray;
+    color: var(--main_color);
+}
 
 }
 

@@ -405,6 +405,9 @@ header nav .icons a:hover{
 .about .div_text{
     width: 100%;
 }
+.about .div_img{
+    width: 100%;
+}
 .about .div_text h5{
     text-align: center;
     color: var(--p_color);
@@ -449,10 +452,7 @@ header nav .icons a:hover{
     color: var(--main_color);
 }
 
-.about .div_img{
-    width: 100%;
 
-}
 
 }
 

@@ -196,7 +196,19 @@ header nav .icons a:hover{
     scale: 1.4;
 }
 
+@media screen and (min-width:0px) and (max-width:500px) {
 
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
+    transition: 0.1s;
+    z-index: 1000;
+}
+
+}
 
 /* start hero */ 
 
@@ -271,7 +283,7 @@ header nav .icons a:hover{
     color: var(--main_color);
 }
 
-@media screen and (min-width:0px) and (max-width:450px) {
+@media screen and (min-width:0px) and (max-width:500px) {
 
     .hero{
     padding-top: 100px;
@@ -382,6 +394,7 @@ header nav .icons a:hover{
     align-items: center;
     border: 5px;
     padding: 50px;
+    position: relative;
 }
 .about .div_text{
     width: 50%;
@@ -392,8 +405,12 @@ header nav .icons a:hover{
     text-transform: capitalize;
 }
 .about .div_text h2{
-    font-size: 45px;
+    font-size: 30px;
     margin: 25px 0 5px;
+}
+.names
+{
+    text-align: center;
 }
 .about .div_text h4{
     font-size: 30px;
@@ -402,6 +419,10 @@ header nav .icons a:hover{
 
 .about .div_text p{
     line-height: 1.8;
+}
+.ppp p
+{
+    font-size: 32;
 }
 .about .div_text ul{
     display: flex;
@@ -421,10 +442,16 @@ header nav .icons a:hover{
 }
 
 .about .div_img{
-    width: 35%;
+    width: 40%;
+    position: absolute;
+    right: 75px;
+    top: 75px;
+}
+.anathrr{
+    opacity: 0;
 }
 
-@media screen and (min-width:0px) and (max-width:450px) {
+@media screen and (min-width:0px) and (max-width:500px) {
 
     .about .container{
     background: var(--black_color);
@@ -432,13 +459,17 @@ header nav .icons a:hover{
     justify-content: space-between;
     align-items: center;
     border: 5px;
-    padding: 50px;
+    padding: 20px;
+
 }
 .about .div_text{
     width: 100%;
+
 }
 .about .div_img{
-    width: 100%;
+    width: 60%;
+    margin-top: 20px;
+
 }
 .about .div_text h5{
     text-align: center;
@@ -455,6 +486,13 @@ header nav .icons a:hover{
 {
     margin-bottom: 50px;
     text-align: center;
+}
+.clearflex
+{
+    background-color: #1F1F1F;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
 }
 .about .div_text h4{
     font-size: 19px;
@@ -498,6 +536,7 @@ header nav .icons a:hover{
     text-transform: capitalize;
     color: var(--black_color);
     transition: 0.3s;
+
 }
 
 .btn-btnsa:hover{
@@ -505,6 +544,11 @@ header nav .icons a:hover{
     color: var(--main_color);
 }
 
+.btn
+{
+     margin-bottom: 100px;
+
+}
 }
 
 /* End About Section */ 
@@ -549,7 +593,7 @@ header nav .icons a:hover{
     scale: 1.3;
 }
 
-@media screen and (min-width:0px) and (max-width:450px) {
+@media screen and (min-width:0px) and (max-width:500px) {
 
     .services .boxs{
     display: block;
@@ -564,6 +608,7 @@ header nav .icons a:hover{
     border: 1px solid var(--border-color);
     border-radius: 10px;
     transition: 0.3s ease-in-out;
+    margin-bottom: 30px;
 }
 .services .boxs .box i{
     color: var(--main_color);
@@ -653,7 +698,7 @@ header nav .icons a:hover{
 
 /* End projects */ 
 
-@media screen and (min-width:0px) and (max-width:450px) {
+@media screen and (min-width:0px) and (max-width:500px) {
 
     .projects .project_box{
     display: block;
@@ -807,7 +852,7 @@ header nav .icons a:hover{
 
 /* End contact */ 
 
-@media screen and (min-width:0px) and (max-width:450px) {
+@media screen and (min-width:0px) and (max-width:500px) {
 
     .contact .container{
     display: block;
